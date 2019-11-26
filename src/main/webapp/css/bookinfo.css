@@ -1,0 +1,112 @@
+.content{
+    width: 80%;
+    margin: auto;
+}
+.book{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    margin: 20px auto;
+    border: 1px solid #e6e6e6;
+}
+
+.cover{
+    width:220px;
+    height:330px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /*为了效果明显，可以将如下边框打开，看一下效果*/
+    /* border:1px solid black; */
+}
+
+.cover img{
+    width:100%;
+    height:auto;
+}
+
+.introduce{
+    margin-left: 50px;
+    width: 450px;
+}
+
+.read-box{
+    margin-left:150px;
+    /*border:1px solid black;*/
+}
+
+.data{
+    display: inline-block;
+    width: 150px;
+
+}
+
+.listen,.voice{
+    display: inline-block;
+    width:34px;
+    height:34px;
+    /*margin: auto;*/
+    align-items:center;
+    justify-content:center;
+    /*为了效果明显，可以将如下边框打开，看一下效果*/
+    /* border:1px solid black;*/
+
+}
+
+.listen img,.voice img{
+    width:100%;
+    height:auto;
+}
+
+.other-voice{
+    width:100%;
+}
+.voice-item{
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    border:1px solid #e6e6e6;
+    border-radius: 5px;
+}
+.voice-item-logo{
+    display: inline-block;
+    width:70px;
+    height:70px;
+    align-items:center;
+    justify-content:center;
+    margin-top: 15px;
+    /*为了效果明显，可以将如下边框打开，看一下效果*/
+    /* border:1px solid black;*/
+}
+.voice-item-logo img{
+    width:100%;
+    height:auto;
+}
+.message{
+    /*margin-left: 200px;*/
+    text-align: center;
+    margin: auto;
+}
+.feeling{
+    width: 150px;
+    /*margin-left: 450px;*/
+}
+
+.feeling-item{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    align-items:center;
+    justify-content:center;
+    margin-top: 10px;
+    margin-right: 10px;
+    /*为了效果明显，可以将如下边框打开，看一下效果*/
+    /* border:1px solid black;*/
+}
+.feeling-item img{
+    width:100%;
+    height:auto;
+}
