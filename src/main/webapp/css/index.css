@@ -1,0 +1,233 @@
+
+.content{
+    margin: 10px auto auto;
+    width: 80%;
+    height:auto;
+}
+.content-top{
+    height: 400px;
+    display: flex;
+    flex-flow: row;
+}
+.content-top-left{
+    width: 20%;
+    border: 1px solid #e6e6e6;
+}
+.content-top-center{
+    width: 60%;
+    height: 100%;
+    margin: 0px 10px;
+    /*border: 1px solid;*/
+}
+.content-top-right{
+    width: 20%;
+    height: 100%;
+    border: 1px solid #e6e6e6;
+}
+
+.category{
+    width: 100%;
+    height: 100%;
+}
+.category tr td a{
+    display: block;
+    text-align: center;
+}
+.category tr td a:hover{
+    color: red;
+    text-decoration: none;
+}
+.single{
+    background-color: wheat;
+}
+.plural{
+    background-color: #F7F7F7;
+}
+
+.carousel{
+    height:55%;
+}
+.advertisting-box{
+    /*border: 1px solid;*/
+    display: flex;
+    flex-flow: row;
+    height:40%;
+    margin-top: 20px;
+}
+.advertisting{
+    width:33.33%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /*为了效果明显，可以将如下边框打开，看一下效果*/
+    /*border:1px solid black;*/
+}
+.advertisting a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.advertisting img{
+    width:100%;
+    height:100%;
+    /*border:1px solid black;*/
+}
+
+.announcement{
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+.announcement-item-tile{
+    font-size: 20px;
+    padding: 5px;
+}
+.announcement-item{
+    font-size: 15px;
+}
+.announcement td{
+    display: block;
+}
+.announcement a{
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.announcement a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.horn{
+    width: 30px;
+    height: 30px;
+    /*z-index: 100;*/
+}
+.notice{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    z-index: -1;
+    /*border: 1px solid #ff6700;*/
+}
+
+.notice a {
+    /*overflow: hidden;*/
+    /*padding-left: 20px;*/
+    /*z-index: -1;*/
+    line-height: 15px;
+    font-size: 15px;
+    color: #000;
+    display: inline-block;
+    white-space: nowrap;
+    animation: 10s wordsLoop linear infinite normal;
+}
+@keyframes wordsLoop {
+    0% {
+        transform: translateX(200px);
+        -webkit-transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+    }
+}
+@-webkit-keyframes wordsLoop {
+    0% {
+        transform: translateX(200px);
+        -webkit-transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+    }
+}
+.notice a:hover{
+    animation-play-state: paused;
+}
+
+.content-bottom{
+    width: 100%;
+    margin-top: 40px;
+}
+
+/*.content-bottom-left{*/
+/*    width: 20%;*/
+/*    height: 100%;*/
+/*}*/
+/*.content-bottom-center{*/
+
+/*    width: 60%;*/
+/*    height: 100%;*/
+/*    border: 1px solid #e6e6e6;*/
+/*    margin: 0px 10px;*/
+/*}*/
+/*.content-bottom-right{*/
+/*    width: 20%;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.recom,.news{*/
+/*    width:100%;*/
+/*    height: 90%;*/
+/*}*/
+/*.recom tr,.news tr{*/
+/*    width: 100%;*/
+/*    !*height: 10%;*!*/
+/*    border-bottom: 1px solid #e6e6e6;*/
+/*}*/
+
+/*.recom tr td a,.news tr td a{*/
+/*    display: block;*/
+/*    text-align: center;*/
+/*}*/
+/*.recom tr td a:hover{*/
+/*    color: red;*/
+/*}*/
+/*.news tr td a:hover{*/
+/*    color: red;*/
+/*}*/
+
+
+.book{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    margin: 20px 0;
+    border: 1px solid #e6e6e6;
+}
+
+.cover{
+    width:120px;
+    height:180px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /*为了效果明显，可以将如下边框打开，看一下效果*/
+    /* border:1px solid black; */
+}
+
+.cover img{
+    width:100%;
+    height:auto;
+}
+
+.introduce{
+    margin-left: 50px;
+    width: 300px;
+}
+
+.read-box{
+    margin-left: 450px;
+}
+
+.data{
+    display: inline-block;
+    width: 100px;
+
+}

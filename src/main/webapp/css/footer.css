@@ -1,0 +1,47 @@
+.footer {
+    margin: 20px auto;
+    background: #fafafa;
+    width: 80%;
+}
+
+.tips, .address {
+    margin: auto;
+    /*width: 80%;*/
+    font-size: 12px;
+    color: #1a1a1a;
+    line-height: 20px;
+}
+
+.address {
+    text-align: center;
+}
+
+.footer-nav{
+
+}
+.footer-nav-ul {
+    list-style-type: none;
+    width: 60%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    /*border: 1px solid;*/
+}
+
+.footer-nav-ul li {
+    float: left;
+}
+
+.footer-nav-ul li a {
+    display: inline-block;
+    color: #1a1a1a;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.footer-nav-ul li a:hover {
+    color: red;
+}
+

@@ -1,0 +1,45 @@
+body{
+    background:url("../images/7a205c52c1e5fc723c43c2fd792205cd.jpg") no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-attachment:fixed;
+    background-color:#CCCCCC;
+}
+*{
+    text-align: center;
+    margin:auto;
+}
+.background{
+    margin-top: 10%;
+    background-color:white;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+.title{
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    --margin-top: 10%;
+    font-size: 30px;
+}
+.account,.password{
+    margin-top: 5%;
+    line-height: 30px;
+    width: 300px;
+    border-width: 0px 0px 1px 0px;
+    text-align: left;
+}
+.login,.register{
+    margin: 10% 5%;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    background-color:mediumpurple;
+    border-radius: 5px;
+    border: none;
+}
+.login:hover,.register:hover{
+    color:cyan;
+}

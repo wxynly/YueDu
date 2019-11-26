@@ -1,0 +1,94 @@
+.logo {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 5%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.regName {
+    border-left: 1px solid;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-form {
+    display: flex;
+    flex-flow: row;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+
+.center-form-left {
+    width: 30%;
+}
+
+.center-form-right {
+    text-align: left;
+    width: 70%;
+    margin-left: 15px;
+}
+
+.center-form-right input {
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.field {
+    text-align: right;
+    line-height: 46px;
+    height: 46px;
+    margin-top: 20px;
+}
+
+#phonearea {
+    height: 47px;
+    width: 120px;
+}
+
+#phonenumber {
+    width: 175px;
+}
+
+#phonepwd {
+    width: 300px;
+}
+
+#phonepwd2 {
+    width: 300px;
+}
+
+.get-code {
+    width: 100px;
+    height: 45px;
+    border: 1px solid silver;
+    background: #F7F7F7;
+}
+
+.deal {
+    font-size: 12px;
+
+}
+
+.deal a {
+    color: black;
+    text-decoration: none;
+}
+
+.reg {
+    width: 310px;
+    background: orangered;
+    border: none;
+    color: white;
+}
