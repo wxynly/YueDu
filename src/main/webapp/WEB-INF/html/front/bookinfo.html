@@ -5,8 +5,11 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="../../../css/header.css">
     <link rel="stylesheet" type="text/css" href="../../../css/footer.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/bookinfo.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/front/bookinfo.css">
+    <link type="text/css" rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.1.1/css/bootstrap.min.css" />
     <script src="../../../jquery-3.4.1.min.js"></script>
+    <script src="../../../js/common/jq-paginator.js"></script>
+    <script src="../../../js/front/bookinfo.js" type="text/javascript"></script>
 </head>
 <body>
 <div style="width: 1400px">
@@ -49,8 +52,8 @@
             <div class="voice-item">
                 <a class="voice-item-logo" href=""><img src="../../../images/listen.png"></a>
                 <div class="message">
-                    <h3>王小鑫</h3>
-                    <h3>2019-11-26</h3>
+                    <h4>王小鑫</h4>
+                    <h4>2019-11-26</h4>
                 </div>
                 <div class="feeling">
                     <a class="feeling-item" href=""><img src="../../../images/love.png"></a>10000<br>
@@ -61,8 +64,8 @@
             <div class="voice-item">
                 <a class="voice-item-logo" href=""><img src="../../../images/listen.png"></a>
                 <div class="message">
-                    <h3>王小鑫</h3>
-                    <h3>2019-11-26</h3>
+                    <h4>王小鑫</h4>
+                    <h4>2019-11-26</h4>
                 </div>
                 <div class="feeling">
                     <a class="feeling-item" href=""><img src="../../../images/love.png"></a>10000<br>
@@ -73,8 +76,8 @@
             <div class="voice-item">
                 <a class="voice-item-logo" href=""><img src="../../../images/listen.png"></a>
                 <div class="message">
-                    <h3>王小鑫</h3>
-                    <h3>2019-11-26</h3>
+                    <h4>王小鑫</h4>
+                    <h4>2019-11-26</h4>
                 </div>
                 <div class="feeling">
                     <a class="feeling-item" href=""><img src="../../../images/love.png"></a>10000<br>
@@ -83,7 +86,10 @@
                 </div>
             </div>
         </div>
-
+        <div class="pages">
+            <p>当前第 <span id="text"></span> 页</p>
+            <ul id="pagination" class="pagination"></ul>
+        </div>
     </div>
     <div class="footer"></div>
     <script>

@@ -1,8 +1,9 @@
-.content{
+.content {
     width: 80%;
     margin: auto;
 }
-.book{
+
+.book {
     width: 100%;
     height: auto;
     display: flex;
@@ -11,102 +12,114 @@
     border: 1px solid #e6e6e6;
 }
 
-.cover{
-    width:220px;
-    height:330px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.cover {
+    width: 220px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /*为了效果明显，可以将如下边框打开，看一下效果*/
     /* border:1px solid black; */
 }
 
-.cover img{
-    width:100%;
-    height:auto;
+.cover img {
+    width: 100%;
+    height: auto;
 }
 
-.introduce{
+.introduce {
     margin-left: 50px;
     width: 450px;
 }
 
-.read-box{
-    margin-left:150px;
+.read-box {
+    margin-left: 150px;
     /*border:1px solid black;*/
 }
 
-.data{
+.data {
     display: inline-block;
     width: 150px;
 
 }
 
-.listen,.voice{
+.listen, .voice {
     display: inline-block;
-    width:34px;
-    height:34px;
+    width: 34px;
+    height: 34px;
     /*margin: auto;*/
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     /*为了效果明显，可以将如下边框打开，看一下效果*/
     /* border:1px solid black;*/
 
 }
 
-.listen img,.voice img{
-    width:100%;
-    height:auto;
+.listen img, .voice img {
+    width: 100%;
+    height: auto;
 }
 
-.other-voice{
-    width:100%;
+.other-voice {
+    width: 100%;
 }
-.voice-item{
+
+.voice-item {
     height: 100px;
     margin-top: 20px;
     padding: 10px;
     display: flex;
     flex-flow: row;
-    border:1px solid #e6e6e6;
+    border: 1px solid #e6e6e6;
     border-radius: 5px;
 }
-.voice-item-logo{
+
+.voice-item-logo {
     display: inline-block;
-    width:70px;
-    height:70px;
-    align-items:center;
-    justify-content:center;
-    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
     /*为了效果明显，可以将如下边框打开，看一下效果*/
     /* border:1px solid black;*/
 }
-.voice-item-logo img{
-    width:100%;
-    height:auto;
+
+.voice-item-logo img {
+    width: 100%;
+    height: auto;
 }
-.message{
+
+.message {
     /*margin-left: 200px;*/
     text-align: center;
     margin: auto;
 }
-.feeling{
+
+.feeling {
     width: 150px;
     /*margin-left: 450px;*/
 }
 
-.feeling-item{
+.feeling-item {
     display: inline-block;
-    width:20px;
-    height:20px;
-    align-items:center;
-    justify-content:center;
-    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
     margin-right: 10px;
     /*为了效果明显，可以将如下边框打开，看一下效果*/
     /* border:1px solid black;*/
 }
-.feeling-item img{
-    width:100%;
-    height:auto;
+
+.feeling-item img {
+    width: 100%;
+    height: auto;
+}
+
+.pages {
+    padding: 20px 20px 20px 100px;
+    margin: 20px 0;
+    background-color: #f7f7f7;
 }
