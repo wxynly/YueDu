@@ -1,5 +1,5 @@
 body{
-    background:url("../images/7a205c52c1e5fc723c43c2fd792205cd.jpg") no-repeat;
+    background:url("../../images/front/7a205c52c1e5fc723c43c2fd792205cd.jpg") no-repeat;
     background-position: center center;
     background-size:cover;
     background-attachment:fixed;
@@ -42,4 +42,8 @@ body{
 }
 .login:hover,.register:hover{
     color:cyan;
+}
+
+#error_box{
+    margin-top: 10px;
 }

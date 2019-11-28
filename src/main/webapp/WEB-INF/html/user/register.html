@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>用户注册|悦读</title>
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../../css/register.css">
-    <link rel="stylesheet" type="text/css" href="../../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/user/register.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/user/footer.css">
 </head>
 <body>
 <!-- start 头部 -->
@@ -17,46 +17,42 @@
 <div class="center reg-center">
     <h3>填写注册信息</h3>
     <hr width="90%">
-    <form action="" method="">
-        <div class="center-form">
-            <div class="center-form-left">
-                <div class="field">手机号</div>
-                <div class="field">短信验证</div>
-                <div class="field">密码</div>
-                <div class="field">确认密码</div>
-            </div>
-            <div class="center-form-right">
-                <select id="phonearea">
-                    <option>中国大陆&nbsp;&nbsp;&nbsp;+86</option>
-                    <option>中国香港&nbsp;&nbsp;&nbsp;+852</option>
-                    <option>中国澳门&nbsp;&nbsp;&nbsp;+853</option>
-                    <option>中国台湾&nbsp;&nbsp;&nbsp;+886</option>
-                </select>
-                <input type="text" placeholder="输入手机号码" id="phonenumber"  autofocus required>
-                <input type="text" placeholder="输入验证码" id="phonecode" required>
-                <a>
-                    <button class="get-code stat" id="get_code">获取验证码</button>
-                </a>
-                <input type="password" id="phonepwd" placeholder="6-18位大小写字母、符号或数字" required>
-                <div class="password-tip" style="display:none">
-                    <span><cite></cite></span>
-                    <p id="pwdrule1">长度为6-18个字符</p>
-                    <p id="pwdrule2">不能是9位以下的纯数字</p>
-                    <p id="pwdrule3">不能包含空格</p>
-                </div>
-                <input type="password" id="phonepwd2" placeholder="再次输入密码" required><br>
-                <div class="deal">
-                    <input type="checkbox" id="deal" name="checkbox" checked style="height: 10px">
-                    <label for="deal" class="ui-checkbox"></label><label for="deal">我已阅读并同意 </label>
-                    <a href="https://passport.yuewen.com/pact.html?mobile=0" target="_blank">《用户服务协议》</a>
-                    <label>和</label> <a target="_blank" href="https://passport.yuewen.com/privacy_policy.html">《隐私政策》</a>
-                </div>
-                <input type="submit" value="立即注册" class="reg" name="register">
-            </div>
+    <div class="center-form">
+        <div class="center-form-left">
+            <div class="field">手机号</div>
+            <div class="field">短信验证</div>
+            <div class="field">密码</div>
+            <div class="field">确认密码</div>
         </div>
-
-    </form>
-
+        <div class="center-form-right">
+            <select id="phonearea">
+                <option>中国大陆&nbsp;&nbsp;&nbsp;+86</option>
+                <option>中国香港&nbsp;&nbsp;&nbsp;+852</option>
+                <option>中国澳门&nbsp;&nbsp;&nbsp;+853</option>
+                <option>中国台湾&nbsp;&nbsp;&nbsp;+886</option>
+            </select>
+            <input type="text" placeholder="输入手机号码" id="phonenumber"  autofocus required>
+            <input type="text" placeholder="输入验证码" id="phonecode" required>
+            <a>
+                <button class="get-code stat" id="get_code">获取验证码</button>
+            </a>
+            <input type="password" id="phonepwd" placeholder="6-18位大小写字母、符号或数字" required>
+            <div class="password-tip" style="display:none">
+                <span><cite></cite></span>
+                <p id="pwdrule1">长度为6-18个字符</p>
+                <p id="pwdrule2">不能是9位以下的纯数字</p>
+                <p id="pwdrule3">不能包含空格</p>
+            </div>
+            <input type="password" id="phonepwd2" placeholder="再次输入密码" required><br>
+            <div class="deal">
+                <input type="checkbox" id="deal" name="checkbox" checked style="height: 10px">
+                <label for="deal" class="ui-checkbox"></label><label for="deal">我已阅读并同意 </label>
+                <a href="https://passport.yuewen.com/pact.html?mobile=0" target="_blank">《用户服务协议》</a>
+                <label>和</label> <a target="_blank" href="https://passport.yuewen.com/privacy_policy.html">《隐私政策》</a>
+            </div>
+            <input type="submit" value="立即注册" class="reg" name="register">
+        </div>
+    </div>
 </div>
 <!-- end 整体居中 -->
 

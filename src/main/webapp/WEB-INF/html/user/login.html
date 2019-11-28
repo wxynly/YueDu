@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>用户登录|悦读</title>
-	<link rel="stylesheet" type="text/css" href="../../../css/login.css">
+	<link rel="stylesheet" type="text/css" href="../../../css/user/login.css">
+	<script src="../../../jquery-3.4.1.min.js"></script>
 
 </head>
 
@@ -14,14 +15,18 @@
 <div class="background">
 	<span class="title">悦读</span>
 	<br>
-	<input type="text" class="account" placeholder="请输入用户名" autofocus required>
+	<input name="userName" id="userName" type="text" class="account" placeholder="请输入用户名" autofocus required>
 	<br>
-	<input type="password" class="password" placeholder="请输入密码" required>
+	<input class="password" id="userPwd" name="userPwd" placeholder="请输入密码" required type="password">
 	<br>
-	<a href=""><input type="button" class="login" value="Login"></a>
-	<a href=""><input type="button" class="register" value="Register"></a>
+	<div id="error_box"></div>
+	<button type="button" class="login">Login</button>
+	<a href="register.html"><input type="button" class="register" value="Register"></a>
 	<br>
 </div>
+<script type="text/javascript" src="../../../js/user/login.js"></script>
+<script>
 
+</script>
 </body>
 </html>

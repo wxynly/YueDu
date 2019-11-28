@@ -1,4 +1,4 @@
-package web;
+package web.test;
 
 import com.google.gson.Gson;
 import javax.servlet.ServletException;
@@ -11,11 +11,12 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet("/test")
-public class test extends HttpServlet {
+@WebServlet("/test/testJs")
+public class testJs extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        super.doGet(req, resp);
+
         resp.setContentType("text/html;charset=utf-8");
         PrintWriter out = resp.getWriter();
         Map<String,Object> model = new HashMap<>();
